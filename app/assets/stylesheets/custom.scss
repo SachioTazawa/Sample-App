@@ -5,6 +5,7 @@
 
 body {
   padding-top: 60px;
+  background-color: #fff;
 }
 
 section {
@@ -23,6 +24,20 @@ textarea {
   margin-bottom: 10px;
 }
 
+#top-main-title{
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1 #top-main-title{
+  font: 63px;
+}
+
+.form-control{
+  background-color: #E8F0FE;
+  
+}
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,12 +52,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 42px;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #333;
 }
 
 p {
@@ -52,20 +67,56 @@ p {
 
 /* ヘッダー */
 
+#header {
+  background-color: teal;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #9d9d9d;
   text-decoration: none;
+}
+
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+li .dropdown-header {
+    background-color: rgba(200,200,200,0.5);
+    font-weight: bold;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #777777;
+    white-space: nowrap;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+p {
+  color: #333;
 }
 
 /* デバッグウインドウ */
